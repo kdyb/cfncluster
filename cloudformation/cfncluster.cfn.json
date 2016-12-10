@@ -756,6 +756,8 @@
         "m4.2xlarge",
         "m4.4xlarge",
         "m4.10xlarge",
+        "m4.16xlarge",
+        "x1,16xlarge",
         "x1.32xlarge"
       ]
     },
@@ -810,6 +812,8 @@
         "m4.2xlarge",
         "m4.4xlarge",
         "m4.10xlarge",
+        "m4.16xlarge",
+        "x1,16xlarge",
         "x1.32xlarge"
       ]
     },
@@ -1721,6 +1725,14 @@
         "EBSOpt" : "False"
       },
       "x1.32xlarge" : {
+        "Arch" : "64HVM",
+        "EBSOpt" : "True"
+      },
+      "x1.16xlarge" : {
+        "Arch" : "64HVM",
+        "EBSOpt" : "True"
+      },
+      "m4.16xlarge" : {
         "Arch" : "64HVM",
         "EBSOpt" : "True"
       },
